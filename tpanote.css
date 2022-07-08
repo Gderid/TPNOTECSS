@@ -37,13 +37,16 @@ body{
   }
   
   .w-50 {
+   width: 50%;
+   
+  }
+  .w-50a {
    
     position:relative;
     display:inline-block;
   }
-  
 
-  .w-50::after {
+  .w-50a::after {
 
     display:inline-block;
     content:'';
